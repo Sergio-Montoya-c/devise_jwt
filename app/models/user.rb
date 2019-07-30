@@ -5,5 +5,6 @@ class User < ApplicationRecord
   #        :recoverable, :rememberable, :validatable
   devise :database_authenticatable,
          :jwt_authenticatable,
+         :registerable,
          jwt_revocation_strategy: JWTBlacklist
 end
