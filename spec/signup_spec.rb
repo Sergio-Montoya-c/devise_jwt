@@ -6,7 +6,8 @@ RSpec.describe 'POST /signup', type: :request do
     {
       user: {
         email: 'sergio@michelada.io',
-        password: '123123123'
+        password: '123123123',
+        password_confirmation: "123123123"
       }
     }
   end
