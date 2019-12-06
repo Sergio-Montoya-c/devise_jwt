@@ -90,11 +90,6 @@ GEM
       concurrent-ruby (~> 1.0)
     erubi (1.8.0)
     fabrication (2.20.2)
-    factory_girl (4.9.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
-      railties (>= 3.0.0)
     faker (1.9.6)
       i18n (>= 0.7)
     ffi (1.11.1)
@@ -127,7 +122,7 @@ GEM
     orm_adapter (0.5.0)
     pg (1.1.4)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (3.12.2)
     rack (2.0.7)
     rack-cors (1.0.3)
     rack-test (1.1.0)
@@ -228,11 +223,10 @@ DEPENDENCIES
   database_cleaner
   devise-jwt
   fabrication
-  factory_girl_rails
   faker
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rack-cors
   rails (~> 5.2.3)
   rspec-rails (~> 3.5)
